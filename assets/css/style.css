@@ -11,11 +11,31 @@
   font-family: tt-medium;
   src: url('../fonts/TT\ Lakes\ Medium.otf');
 }
+@font-face {
+    font-family: tt-regular;
+    src: url('../fonts/TT\ Lakes\ Regular.ttf');
+}
+@font-face {
+    font-family: teko-regular;
+    src: url('../fonts/Teko-Regular.ttf');
+}
+@font-face {
+    font-family: teko-semibold;
+    src: url('../fonts/Teko-SemiBold.ttf');
+}
+@font-face {
+    font-family: teko-medium;
+    src: url('../fonts/Teko-Medium.ttf');
+}
+@font-face {
+    font-family: teko-bold;
+    src: url('../fonts/Teko-Bold.ttf');
+}
 body{
-    background-color: #EDF0F2;
+    /* background-color: #EDF0F2; */
 }
 .navbar-light.bg-light{
-    background-color: #EDF0F2 !important;
+    /* background-color: #EDF0F2 !important; */
 }
 .navbar-brand img{
     height: 5rem;
@@ -40,21 +60,25 @@ body{
 }
 .mainLeft{
     height: 70vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    padding-top: 5rem;
+    padding-left: 4rem;
 }
 .mainLeft h1{
     font-family: 'Teko', sans-serif;
     color: #E44200;
     text-transform: uppercase;
-    font-size: 70px;
-    line-height: 60px;
+    font-size: 68px;
+    line-height: 50px;
     font-weight: 700;
 }
 .mainLeft p{
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    font-family: tt-regular;
+    letter-spacing: 0.28px;
 }
 .carousel-indicators{
     position: absolute;
@@ -96,4 +120,229 @@ body{
      font-size: 2.5rem;
       font-weight: 600;
       border-bottom: 1px solid #111;
+}
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-family: teko-semibold;
+    color: #111;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+.mainLeft{   
+    position: relative;
+}
+.sideText{
+   position: absolute;
+    top: 10.5rem;
+    left: -5.5rem;
+    font-size: 2.5rem;
+    font-family: teko-semibold;
+    transform: rotate(-90deg);
+    color: #000;
+}
+.socialMediaBanner{
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+}
+.socialMediaBanner ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.socialMediaBanner ul li{
+    padding-top: 0.75rem;
+}
+.socialMediaBanner ul li a{
+    color: #000;
+    font-size: 0.85rem;
+}
+.socialMediaBanner ul li a:hover{
+    color: #E44200;
+}
+.featuredWorks{
+    padding: 5rem 0;
+}
+.featuredWorks h2{
+    font-family: teko-semibold;
+    font-size: 2.25rem;
+}
+.themeColor{
+     color: #E44200 !important;
+}
+.feat-works img{
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    object-position: center;
+}
+.keySkills{
+    color: #C92A42;
+    font-family: teko-medium;
+    letter-spacing: 0.51px;
+    text-transform: uppercase;
+    font: normal normal 600 17px/53px Teko;
+    line-height: 12px;
+}
+.f-work-desc{
+    text-align: left;
+    font-size: 0.75rem;
+    font-family: tt-regular;
+    letter-spacing: 0.28px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.f-workDetails a, .coreValues a{
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: teko-semibold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.f-workDetails a:hover, .coreValues a:hover{
+    text-decoration: none;
+}
+.f-workDetails a i, .coreValues a i{
+    color: #E44200;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-right: 0.75rem;
+}
+.f-work-head{
+    font-family: teko-medium;
+    font-size: 1.5rem;
+    color: #000;
+}
+.f-workDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feat-works{
+    padding: 1.5rem 0;
+}
+.coreValues h1{
+    font-family: teko-bold;
+    font-size: 5.5rem;
+    line-height: 65px;
+    position: relative;
+    margin-top: -40px;
+    padding-left: 36px;
+    color: #dadada;
+    margin-bottom: 0;
+}
+.coreValues ul{
+    list-style: none;
+    padding-left: 0;
+}
+.coreValues ul li{
+    font-family: teko-bold;
+    font-size: 2.25rem;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+.coreValues h4{
+    font-family: teko-semibold;
+    font-size: 1.25rem;
+    padding-top: 2rem;
+}
+footer{
+   background-image: url(../img/img_footer.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 2;
+    background-image: linear-gradient(to bottom, #880101, #6a0212, #490916, #290b12, #000000);
+    opacity: 0.9;
+}
+.footerLogo img{
+    height: 8rem;
+    width: 8rem;
+    object-fit: contain;
+    position: relative;
+    z-index: 3;
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactAddress{
+    position: relative;
+    z-index: 99;
+}
+.contactAddress h4{
+    font-family: teko-semibold;
+    color: #E4003B;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.contactAddress p{
+    font-size: 1rem;
+    color: #9E9E9F;
+    font-family: teko-regular;
+}
+footer form{
+    position: relative;
+    z-index: 3;
+}
+footer .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #9E9E9F;
+    border-radius: 0;
+    color: #fff;
+    padding: 0 4px;
+    line-height: 12px;
+}
+footer .form-control::placeholder{
+    color: #9E9E9F;
+    font-family: teko-medium;
+}
+footer .form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+footer form button.btn-theme{
+    background-color: transparent;
+    font-family: teko-semibold;
+    font-size: 1.4rem;
+    color: #E4003B;
+    text-transform: uppercase;
+}
+footer form button.btn-theme:hover{
+    color: #fff;
+}
+.f-socialmedia{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.f-socialmedia li{
+      display: inline-block;
+      padding:0.5rem 1rem;
+      padding-left: 0;
+}
+.f-socialmedia li a{
+    color: #f1f1f1;
+}
+.f-socialmedia li a:hover{
+    color: #E4003B;
 }
