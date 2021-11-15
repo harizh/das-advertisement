@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Das Advertisement</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="why-das.html">Why Das</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+
+        <section class="featuredWorks projects">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 coreValues">
+                        <!-- <h2 class="themeColor">02</h2> -->
+                        <h4><span class="themeColor">02</span>Our Services & Projects</h4>
+
+                        <ul id="myBtnContainer">
+                            <li class="clicks act" onclick="filterSelection('all')">ALL CATEGORIES</li>
+                            <li class="clicks" onclick="filterSelection('graphic')">GRAPHIC DESIGNING</li>
+                            <li class="clicks" onclick="filterSelection('digital')">DIGITAL PRINTING</li>
+                            <li class="clicks" onclick="filterSelection('events')">EVENTS & EXHIBITIONS</li>
+                            <li class="clicks" onclick="filterSelection('vehcle')">VEHICLE GRAPHICS</li>
+                            <li class="clicks" onclick="filterSelection('led')">LED LIGHT DISPLAYS</li>
+                            <li class="clicks" onclick="filterSelection('product')">PRODUCT DISPLAYS</li>
+                            <li class="clicks" onclick="filterSelection('popups')">POPUPS & ROLLUPS</li>
+                            <li class="clicks" onclick="filterSelection('acrylic')">ACRYLIC DISPLAYS</li>
+                            <li class="clicks" onclick="filterSelection('promotion')">PROMOTION STANDS</li>
+                            <li class="clicks" onclick="filterSelection('awards')">AWARDS & PLAQUES</li>
+                        </ul>                                            
+                    </div>
+
+
+                    <div class="col-md-8">
+                        <h2>Projects</h2>
+
+                        <div class="row feat-works filterDiv graphic vehcle awards">
+                            <div class="col-md-5">
+                                <img src="assets/img/img_header.png" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Uncompromising Quality</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui
+                                dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv digital product">
+                            <div class="col-md-5">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlm74zQGPmohhrxY9tFePTiqdbKk_RMcqkQw&usqp=CAU" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Experts In Advertising</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv events led acrylic">
+                            <div class="col-md-5">
+                                <img src="https://onboard.thalesgroup.com/assets/formation-et-digital-learning-1024x506.jpg" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Full Fledged Btl Advertising Firm</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv graphic digital promotion awards">
+                            <div class="col-md-5">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyoffTKXkHF0AhVMZBOgZ8c8E1f-P1kxWNr2yF69Fk0i6TK5zIkITqav01yKWsA63Scc&usqp=CAU" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Over 15 Years Of Experiece</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv graphic events promotion">
+                            <div class="col-md-5">
+                                <img src="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/homecarousel/cybersecurity-lock.jpg" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Uncompromising Quality</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv graphic vehcle popups awards">
+                            <div class="col-md-5">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyoffTKXkHF0AhVMZBOgZ8c8E1f-P1kxWNr2yF69Fk0i6TK5zIkITqav01yKWsA63Scc&usqp=CAU" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Experts In Advertising</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv digital product">
+                            <div class="col-md-5">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0FbDKptcoOGRl8AVmVP3dv2LztwRb-oUBRg&usqp=CAU" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Full Fledged Btl Advertising Firm</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                        <div class="row feat-works filterDiv vehcle led popups">
+                            <div class="col-md-5">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlm74zQGPmohhrxY9tFePTiqdbKk_RMcqkQw&usqp=CAU" alt="">
+                            </div>
+                            <div class="col-md-6 f-workDetails">
+                                <h4 class="keySkills">KEY SKILLS</h4>
+                                <h3 class="f-work-head">Over 15 Years Of Experiece</h3>
+                                <p class="f-work-desc">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                                    consequatur, vel illum qui
+                                    dolorem.</p>
+                                <a href=""><i class="fas fa-times"></i> Find Out More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 footerLogo">
+                    <img src="assets/img/footer-logo.png" alt="">
+                </div>
+                <div class="col-md-4 contactAddress">
+                    <h4>CONTACT</h4>
+                    <p>PO Box: 26719, Sharjah <br> Ph: +971 6 534 7748 <br> Email: info@dasadvt.com <br> Fax: +971 6 534 7749</p>
+                    <p>OPENING HOURS</p>
+                    <ul class="f-socialmedia">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id=""  placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="" placeholder="Contact Info">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        
+                        <p class="text-right">
+                            <button type="submit" class="btn btn-theme">Send</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("clicks");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("act");
+                current[0].className = current[0].className.replace(" act", "");
+                this.className += " act";
+            });
+        }
+    </script>
+</body>
+
+</html>

@@ -346,3 +346,40 @@ footer form button.btn-theme:hover{
 .f-socialmedia li a:hover{
     color: #E4003B;
 }
+.projects .coreValues h4{
+    padding-top: 0;
+}
+.projects .coreValues span{
+    font-family: teko-semibold;
+    font-size: 2.25rem;
+}
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+#myBtnContainer li{
+    cursor: pointer;
+    padding: 0.5rem 0;
+    font-family: 'teko-semibold';
+    font-size: 2rem;
+}
+.clicks{
+    color: #99949F;
+}
+.clicks:hover, .clicks.act{
+    color: #111;
+}
+.nav-item.active a{
+    color: #E44200 !important;
+}
+.nav-item a:hover{
+    color: #E44200 !important;
+}
+.whydasHead{        
+    font-family: 'teko-semibold';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
