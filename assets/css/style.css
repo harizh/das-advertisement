@@ -428,7 +428,8 @@ footer form button.btn-theme:hover{
     text-align: left;
     padding: 2rem 1.5rem;
 }
-#teamSlider .carousel-control-prev, #teamSlider .carousel-control-next{
+#teamSlider .carousel-control-prev, #teamSlider .carousel-control-next,
+#mainSLider .carousel-control-prev, #mainSLider .carousel-control-next{
     background: #333;
     right: 0;
     left: auto;
@@ -438,23 +439,28 @@ footer form button.btn-theme:hover{
     opacity: 1;
     color: #111;
 }
-#teamSlider .carousel-control-prev{
+#teamSlider .carousel-control-prev,
+#mainSLider .carousel-control-prev{
     bottom: 43px;
 }
-#teamSlider .carousel-control-next{
+#teamSlider .carousel-control-next,
+#mainSLider .carousel-control-next{
     bottom: 0;
 }
-#teamSlider .carousel-control-prev:hover, #teamSlider .carousel-control-next:hover{
-    background: #E44200;
-}
+
 .coreValueCard{
     background: #2A272D;
     height: 20rem;
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
-    align-items: flex-end;
-    padding: 1rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.coreValueCard img{
+    height: 4.5rem;
 }
 .ourCoreValues{
     padding:3rem 0;
@@ -493,4 +499,33 @@ footer form button.btn-theme:hover{
 }
 .carousel.whyDasCarousel{
     height: 80vh;
+}
+.coreValues img{
+    width: 100%;
+    position: relative;
+    margin-left: -30px;
+}
+#teamSlider .carousel-control-prev-icon, 
+#mainSLider .carousel-control-prev-icon{
+    background-image: url('../img/icons/icon-right.png');
+    background-size: contain;
+}
+#teamSlider .carousel-control-prev,
+#mainSLider .carousel-control-prev{
+    background-color: #E44200;
+    opacity: 0.8;
+}
+#teamSlider .carousel-control-next, 
+#mainSLider .carousel-control-next{
+    background-color: #EDF0F2;
+    opacity: 0.9;
+}
+#teamSlider .carousel-control-prev:hover, #teamSlider .carousel-control-next:hover,
+#mainSLider .carousel-control-prev:hover, #mainSLider .carousel-control-next:hover{
+    opacity: 1;
+}
+#teamSlider .carousel-control-next-icon,
+#mainSLider .carousel-control-next-icon{
+    background-image: url('../img/icons/ico_arrow.png');
+    background-size: contain;
 }
